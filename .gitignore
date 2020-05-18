@@ -3,3 +3,9 @@
 ################################################################################
 
 /SampleAPIPostGreSQL/DataEFCore/bin/Debug/netcoreapp3.1
+/SampleAPIPostGreSQL/DataEFCore/Migrations
+/SampleAPIPostGreSQL/Domain/bin/Debug/netcoreapp3.1
+/SampleAPIPostGreSQL/Domain/obj
+/SampleAPIPostGreSQL/DataEFCore/obj
+/SampleAPIPostGreSQL/WebAPI/bin/Debug/netcoreapp3.1
+/SampleAPIPostGreSQL/WebAPI/obj

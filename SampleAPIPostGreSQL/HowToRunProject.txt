@@ -1,0 +1,29 @@
+------- Installation of PostGre SQL in you System--------------------------------------------------------------------------------------------
+
+1. Install PostGre Sql in you system. (Refer: https://www.postgresql.org/download/windows/)
+
+2. While Installing is in Progress you may want to satup a server password as "MYpara," (because same has be used in connection string of the project). You may also setup server password as per your choice but make sure the same has been updated in connection strings of the project.
+
+
+------- Setting up the Database Schema using Entity Framework Migration for the existing tables designed through COde First Approach---------
+
+
+1. Set DataEFCore class library as default project.
+2. Go Cotext.cs class of DataEFCore class library.
+3. Uncomment Default Constructor (Line 10 to 13)
+4. Uncomment Connection Configuration Builder (Line 20 to 23)
+5. Open Package Manager Console: Run Below mentioned commands for migration
+   enable-migrations
+   add-migration initial
+   update-database
+   
+6. Comment back Default Constructor (Line 10 to 13)
+7. Comment vack Connection Configuration Builder (Line 20 to 23)
+
+
+--------------- Run the Swagger Integrated  API ---------------------------------------------------------------------------------------------
+
+1. Set WebAPI project as default project.
+2. Run it and test the API endpoints is the swagger.
+
+Enjoy!!
