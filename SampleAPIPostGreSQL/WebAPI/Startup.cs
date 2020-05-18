@@ -68,8 +68,6 @@ namespace WebAPI
             app.UseStaticFiles();
             app.UseHttpsRedirection();
 
-
-
             app.UseRouting();
             app.UseCors("CorsPolicy");
             app.UseAuthorization();
