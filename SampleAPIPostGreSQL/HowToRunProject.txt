@@ -2,7 +2,7 @@
 
 1. Install PostGre Sql in you system. (Refer: https://www.postgresql.org/download/windows/)
 
-2. While Installing is in Progress you may want to satup a server password as "MYpara," (because same has be used in connection string of the project). You may also setup server password as per your choice but make sure the same has been updated in connection strings of the project.
+2. While Installing is in Progress you may want to satup a server password as "MYpara1," (because same has be used in connection string of the project). You may also setup server password as per your choice but make sure the same has been updated in connection strings of the project.
 
 
 ------- Setting up the Database Schema using Entity Framework Migration for the existing tables designed through COde First Approach---------
